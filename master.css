@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.wrap{
+    width: 100%;
+    height: 26700px;
+    background-color: #1B1927;
+}
+
+nav{
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #6A15FF;
+    position: fixed;
+    z-index: 10;
+    opacity: 40%;
+}
+
+.menubar{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 100%;
+    font-style: Noto Sans KR;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    width: 100px;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+
+.box01{
+    border:px  solid blue;
+    width: 1802px;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 30;
+
+
+}
+
+.box02{
+    width: 60px;
+    height: 64px;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box03{
+    width: 1768px;
+    height: 1857px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bio{
+    margin-top:213px;
+}
+
+.box04{
+    z-index: 4;
+}
+
+.sub01{
+    width: 1424px;
+    height: 1291.11px;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    top: 100px;
+}
+
+.tx1{
+    width: 1737.34px;
+    height: 1367.53px;
+    margin: 0 auto ;
+    
+}
+
+.line{
+
+    width:10px;
+    height: 400px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    top:50px;
+    
+}
+
+.line_02{
+    border: 0px solid rgb(255, 0, 0);
+    width:10px;
+    height: 600px;
+    margin: 0 auto;
+
+
+}
+
+.sub02{
+    width: 1541.32px;
+    height: 1583.9px;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    top: 100px;
+}
+
+.box7{
+    border: 0px solid blue;
+    width: 1204.38px;
+    height: 1555.76px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box8{
+    width: 1631.15px;
+    height: 1871.34px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    top:100px;
+}
+.box9{
+    border: 0px solid blue;
+    width: 1450.32px;
+    height: 1291.9px;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    top: 0px;
+}
+
+.box10{
+    border: 0px solid blue;
+    width: 1630.2px;
+    height: 1530.2px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+}
+.box11{
+    width: 1398.5px;
+    height: 1726.38px;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    top:100px;
+}
+.box12{
+    width: 1894.15px;
+    height: 3381.74px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid blue;
+    
+}
+.box13{
+    width: 1126px;
+    height: 810.17px;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    top:1px;
+}
+.box14{
+    width: 1920px;
+    height: 1491.53px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box15{
+    width: 1382.58px;
+    height: 1286.04px;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+
+}
+.txt6{
+    border:0px solid blue;
+    width: 1510px;
+    height: 1298.85px;
+    background-image: url(img/tx06.png);
+}
+
+.box_0{
+    width: 30px;
+    height: 50px;
+}
+
+
+.box16{
+    border:0px solid blue;
+    width: 311px;
+    height: 200px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.box17{
+    width: 1100px;
+    height: 535px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+}
+.box18{
+    border:0px solid blue;
+    width: 311px;
+    height: 100px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:500px){
+    .logo > img{
+        width: 80vw
+    }
+    .bg{
+        background-size: cover;
+    }
+    .menu{
+        font-size: 40px;
+    }
+}
+
+
+
